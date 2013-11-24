@@ -63,7 +63,7 @@ void loop()
     emic.speak("Even doubles");
     emic.speak(3.14);  // It accepts various alphanumeric or numeric data types
     
-    emic.speak("Let's now sing a song");
+    emic.speak(":-)0 Let's now sing a song");
     emic.speakDemo(1);
     delay(2000);
     !emic;  // Stops playback

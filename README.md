@@ -1,7 +1,7 @@
 EMIC2
 =====
 
-Wow, what can I say about the [Emic 2 Text-to-Speech](http://www.grandideastudio.com/portfolio/emic-2-text-to-speech-module/) module... this well designed and very simple to use piece of hardware. I would say `Εμεινα μαλάκας`, but it would probably sound all greek to you, so I won't. I will rather say that I had the most fun experimenting with this module, and I would be happy to do it again.
+Wow, what can I say about the [Emic 2 Text-to-Speech](http://www.grandideastudio.com/portfolio/emic-2-text-to-speech-module/) module... this very well designed and simple to use piece of hardware. I would say `Εμεινα μαλάκας`, but it would probably sound all greek to you, so I won't. I will rather say that I had the most fun experimenting with this module, and I would be happy to do it again.
 
 Now, to the point... This is an Arduino library for interfacing the [Emic 2 Text-to-Speech](http://www.grandideastudio.com/portfolio/emic-2-text-to-speech-module/) module. With the library, one can change the characteristics of the speech on the module through the use of methods and operators, for a less technical and more natural way of control. It can send messages provided as an immediate argument on a method, or by reference through a file in an SD card.
 
@@ -30,3 +30,4 @@ Special use of operators, that they act upon an instance of the class, can furth
 * `emic >> value;` - increases speaking rate by `value` words/minute
 * `emic << value;` - decreases speaking rate by `value` words/minute
 
+=======

@@ -1,0 +1,33 @@
+######################################
+# Syntax Coloring Map For EMIC2      #
+######################################
+
+######################################
+# Datatypes (KEYWORD1)               #
+######################################
+
+EMIC2	KEYWORD1
+
+######################################
+# Methods and Functions (KEYWORD2)   #
+######################################
+
+begin	KEYWORD2
+speak	KEYWORD2
+speakDemo	KEYWORD2
+sendCmd	KEYWORD2
+setVoice	KEYWORD2
+getVoice	KEYWORD2
+setVolume	KEYWORD2
+getVolume	KEYWORD2
+resetVolume	KEYWORD2
+setRate	KEYWORD2
+getRate	KEYWORD2
+resetRate	KEYWORD2
+setLanguage	KEYWORD2
+getLanguage	KEYWORD2
+setParser	KEYWORD2
+getParser	KEYWORD2
+setDefaultSettings	KEYWORD2
+getCurrentSettings	KEYWORD2
+getVInfo	KEYWORD2

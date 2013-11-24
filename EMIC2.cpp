@@ -79,7 +79,7 @@ void EMIC2::begin(uint8_t rx_pin, uint8_t tx_pin, uint8_t cs_pin)
     #endif
 }
 
-// Waits until Emic 2 is ready to receive a command
+// Waits (Blocking) until Emic 2 is ready to receive a command
 void EMIC2::ready()
 {
     _emic2_io->flush();  // Flushes receive buffer

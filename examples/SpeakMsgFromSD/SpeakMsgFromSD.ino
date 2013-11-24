@@ -43,10 +43,11 @@ void loop()
     // and creates one message per line of the file that gets sent to the Emic 2 module
     // Only the filename needs to be provided (file is inside the emic2 folder)
     emic.speak("text001.txt", SD_C);
-    delay(4000);
+    emic.ready();  // Waits until playback finishes
+    delay(2000);
     emic.speak("text002.txt", SD_C);
 
-    emic.setDefaultSettings();  // Restores all settings to the default values
+    emic.setDefaultSettings();  // Restores all settings to their default values
   
     while (true) ;
 }

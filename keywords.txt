@@ -16,6 +16,7 @@ begin	KEYWORD2
 speak	KEYWORD2
 speakDemo	KEYWORD2
 sendCmd	KEYWORD2
+ready	KEYWORD2
 setVoice	KEYWORD2
 getVoice	KEYWORD2
 setVolume	KEYWORD2

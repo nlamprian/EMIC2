@@ -45,6 +45,7 @@ public:
 	void speak(String filename, uint8_t sd);
 	void speakDemo(uint8_t num);
 	void sendCmd(char *cmd);
+	void ready();
 	EMIC2& operator~();
 	EMIC2& operator!();
 	EMIC2& operator++();
@@ -82,7 +83,6 @@ private:
 	uint8_t _language;
 	uint8_t _parser;
 	uint8_t _sd;
-	void ready();
 };
 
 #endif  // EMIC2

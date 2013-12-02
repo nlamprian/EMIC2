@@ -82,6 +82,7 @@ void EMIC2::begin(uint8_t rx_pin, uint8_t tx_pin, uint8_t cs_pin)
 // Waits (Blocking) until Emic 2 is ready to receive a command
 void EMIC2::ready()
 {
+    _emic2_io->listen();
     _emic2_io->flush();  // Flushes receive buffer
     _emic2_io->print('\n');  // Triggers response
     while (_emic2_io->read() != ':') ;  // Awaits for ':' indicator
@@ -349,6 +350,7 @@ void EMIC2::sendCmd(char *cmd)
 // Pauses/Unpauses playback
 EMIC2& EMIC2::operator~()
 {
+    _emic2_io->listen();
     // Sends pause/unpause command
     _emic2_io->print('Z');
     uint8_t val;
@@ -367,6 +369,7 @@ EMIC2& EMIC2::operator~()
 // Stops playback
 EMIC2& EMIC2::operator!()
 {
+    _emic2_io->listen();
     // Sends stop command
     _emic2_io->print('X');
     while (_emic2_io->read() != ':') ;

@@ -1,12 +1,12 @@
 /**
  * Name: EMIC2
- * Author: Nick Lamprianidis (lampnick67@yahoo.com)
+ * Author: Nick Lamprianidis <nlamprian@gmail.com>
  * Version: 1.0
  * Description: A library for interfacing the EMIC2 Text-to-Speech module
  * License: Copyright (c) 2013 Nick Lamprianidis 
  *          This library is licensed under the MIT license
  *          http://www.opensource.org/licenses/mit-license.php
- * Source: https://github.com/pAIgn10/EMIC2
+ * Source: https://github.com/nlamprian/EMIC2
  *
  * Filename: EMIC2.h
  * File description: Definitions and methods for the EMIC2 library

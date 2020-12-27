@@ -5,7 +5,7 @@ Wow, what can I say about the [Emic 2 Text-to-Speech](http://www.grandideastudio
 
 Now, to the point... This is an Arduino library for interfacing the [Emic 2 Text-to-Speech](http://www.grandideastudio.com/portfolio/emic-2-text-to-speech-module/) module. With the library, one can change the characteristics of the speech on the module through the use of methods and operators, for a less technical and more natural way of control. It can send messages provided as an immediate argument to a method, or by reference through a file in an SD card.
 
-![emic2](http://i859.photobucket.com/albums/ab154/lampnick67/emic2__zpsf8ec194d.png)
+![emic2](https://raw.githubusercontent.com/wiki/nlamprian/EMIC2/assets/emic2.png)
 
 Interface
 ---------
